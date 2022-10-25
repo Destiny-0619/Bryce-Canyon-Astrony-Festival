@@ -1,2 +1,2 @@
 # event-site
-Bryce Canyon Astrology Festival
+Bryce Canyon Astronomy Festival

@@ -6,8 +6,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
-    <h1>Hello World</h1>
-</body>
+
+<header>
+
+    <div class="navigation">
+      <h1 class="logo">Logo</h1>
+      
+      <nav>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    </header>
+
+    <div class="hero">
+        <img src="images/bryce canyon hero.jpg" alt="">
+        <div class="centered">Welcome to Bryce Canyon Annual Astronomy Festival
+            <button class="reg-button">REGISTER HERE TODAY!</button>
+        </div>
+    </div>
+
+    <section class="sect-1">
+        <h1>Bryce Canyon Astronomy Festival</h1>
+        <p>Have you ever wondered what it was like to sightsee at Bryce Canyon, day and night? Have you ever experienced the new moon in June? Come to Bryce Canyon for the annual Astronomu festival! This festival features family-friendly activities and evening programs, as well as constellation tours!
+
+            The 2022 festival will feature guest speakers Dean Regas from the Cincinnati Observatory and recent Grand Canyon Astronomer in Residence as well as Bill Ochs, James Webb Space Telescope Project Manager & Begoña Vila, Webb Instrument Systems Engineer!</p>
+            <img src="images/BC poster.jpg" alt="">
+    </section>
+    
+    <section class="sect-2">
+        <h1>Welcome Guest Speakers</h1>
+        <div class="container">
+            <div class="card">
+                <img src="images/regas.jpg" alt="">
+                <h2>Dean Regas</h2>
+                <p>Dean has been the Astronomer for the Cincinnati Observatory since 2000. He is a renowned educator, author, national popularizer of astronomy and an expert in observational astronomy. From 2010-2019 Dean was the co-host of the PBS program Star Gazers. He is the author of five books including "Facts From Space!" and "100 Things to See in the Night Sky".</p>
+                <a href="https://www.cincinnatiobservatory.org/dean-regas/about-dean/" target="_blank">READ MORE</a>
+            </div>
+
+            <div class="card">
+                <img src="images/villa.jpg" alt="">
+                <h2>Begoña Vila</h2>
+                <p>Dr. Begoña Vila is an Instrument Systems Engineer for the James Webb Space Telescope at NASA's Goddard Space Flight Center in Greenbelt, Maryland. She supported Webb's cryogenic testing at NASA's Johnson Space Center in Houston in 2017, she will support testing for the observatory throughout 2018, and she is also helping plan Webb's commissioning.</p>
+                <a href="https://www.jwst.nasa.gov/content/meetTheTeam/people/vila.html" target="_blank">READ MORE</a>
+            </div>
+
+            <div class="card">
+                <img src="images/ochs.jpg" alt="">
+                <h2>Bill Ochs</h2>
+                <p>Bill Ochs has 30+ years of experience in the aerospace industry. He began his career in 1979 with the Bendix Guidance Systems Division in Teterboro, N.J. as an electronics/software engineer, developing the flight software for the Hubble Space Telescope safing system. He has worked in both private industry and for NASA and is currently the Project Manager for the James Webb Space Telescope. </p>
+                <a href="https://webb.nasa.gov/content/meetTheTeam/people/ochs.html" target="_blank">READ MORE</a>
+            </div>
+        
+        </div>
+    </section>
+
+    <section class="sect-3">
+
+        <div class="schedule">
+            <h1>Schedule of Events</h1>
+            <p>Do you want to get a better insight on what you want to do at the festival? Click each tab to look at the daytime and evening schedules so that you could plan your day accordingly.</p>
+            <img src="images/stargazing.jpg" alt="">
+        </div>
+
+        <div class="day-tabs">
+            <input class="radio" id="one" name="group" type="radio" checked>
+            <input class="radio" id="two" name="group" type="radio">
+            <input class="radio" id="three" name="group" type="radio">
+            <input class="radio" id="four" name="group" type="radio">
+
+            <div class="tabs">
+                <label for="one" class="tab" id="day-one">Day 1</label>
+                <label for="two" class="tab" id="day-two">Day 2</label>
+                <label for="three" class="tab" id="day-three">Day 3</label>
+                <label for="four" class="tab" id="day-four">Day 4</label>
+            </div>
+            
+            <div class="panels">
+                <div class="panel" id="panel-one">
+                    <div class="pan-heading">Daytime</div>
+                    <p>Daytime activities include activity tents, solar telescopes, and other opportunities open to the public at the Visitor Center between 11 a.m. and 4 p.m. each day of the festival.</p>
+
+                    <div class="pan-heading">Evening</div>
+                    <div class="pan-subhead">Star Stories
+                        8:30 p.m. 45 minutes</div>
+                        <p>Planetarium Educator Dr. Amy Sayle takes you on a trip through the constellations and the eternal legends they tell. Help act out one of the greatest star stories ever told.
+
+                            Location given at sign-up. This program requires reservations, which can be made same-day at the Visitor Center Information Tent beginning at 8 a.m. until capacity is reached.</p>
+
+                    <div class="pan-subhead">Our Backyard: Exploring Venus and Mars
+                        9:00 p.m. 45 minutes</div>
+                        <p>Venus and Mars are in our planet's backyard, but how much do you really know about them? Join Ranger Emma on an exploration of these two planets. Discover what makes these planets unique, as well as what makes them surprisingly similar to our own planet. From rivers of lava to ice caps, let's get to know our backyard a little better.
+
+                            Location given at sign-up. This program requires reservations, which can be made same-day at the Visitor Center Information Tent beginning at 8 a.m. until capacity is reached.</p>
+
+                    <div class="pan-heading">Stargazing</div>
+                    <div class="pan-subhead">10:00 p.m. - Midnight
+                        Aditional Parking lot across from Visitor Center.</div>
+                    <p>Shuttle hours will be extended for the festival. As parking at the Visitor Center and evening program locations will be limited, we advise parking at the Shuttle Station or boarding from your campground in the park. Shuttles will run until 1 a.m.
+                        
+                        Volunteers from the Salt Lake Astronomical Society point their telescopes at some of the night sky's most spectacular sights. White-light flashlights are prohibited due to their negative impact on night vision.</p>
+                </div>
+
+                <div class="panel" id="panel-two">
+                    <div class="pan-heading">Daytime</div>
+                    <div class="pan-subhead">11:00 a.m. - 4:00 p.m.</div>
+                    <p>Family Friendly activities in the Visitor Center plaza including booths from the James Webb Space Telescope team and University of Utah.</p>
+
+                    <div class="pan-heading">Evening</div>
+                    <div class="pan-subhead">Black Holes
+                        8:30 p.m. 60 minutes </div>
+                    <p>Ever wondered about the "anatomy" of black holes, how they're formed, what types exist, and what would happen if you came a little too close? Join Paul Ricketts, director of University of Utah's South Physics Observatory, to talk about how relativity and gravity explains them, how we detect them, and how they affect space-time and ultimately, you.
+
+                        Location given at sign-up. This program requires reservations, which can be made same-day at the Visitor Center Information Tent beginning at 8 a.m. until capacity is reached.</p>
+
+                    <div class="pan-subhead">From Lead to Gold: The Alchemy of the Stars
+                        9:00 p.m. 60 minutes</div>
+                    <p>When Carl Sagan once said, "The cosmos is within us. We are made of star-stuff," he meant it literally! Nearly all the atoms that make up us, and everything around us, are created in the fiery death of exploding stars. Samantha will talk about how these elements are made, how we learn about them and what's left to be uncovered.
+
+                        Location given at sign-up. This program requires reservations, which can be made same-day at the Visitor Center Information Tent beginning at 8 a.m. until capacity is reached.</p>
+
+                    <div class="pan-heading">Stargazing</div>
+                    <div class="pan-subhead">10:00 p.m. - Midnight
+                        Aditional Parking lot across from Visitor Center</div>
+                    <p>Shuttle hours will be extended for the festival. As parking at the Visitor Center and evening program locations will be limited, we advise parking at the Shuttle Station or boarding from your campground in the park. Shuttles will run until 1 a.m.
+
+                        Volunteers from the Salt Lake Astronomical Society point their telescopes at some of the night sky's most spectacular sights. White-light flashlights are prohibited due to their negative impact on night vision.</p>
+                </div>
+
+                <div class="panel" id="panel-three">
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+   
+
+
+
+
 </html>

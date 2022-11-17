@@ -2,15 +2,66 @@ h1 {
     color: red;
 }
 
-.tab-content {
-    display: none;
-    padding: 0 18px;
-    &.is-active {
-      display: block;
-    }
-  }
-  
+/*section 5 modal content*/
 
-.tabs ul {
+.button {
     border: none;
+    background: transparent;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background:rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    margin: 20% auto;
+    width: 70%;
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+
+.modal-header h2, .modal-footer h3 {
+    margin: 0;
+}
+
+.modal-header {
+    padding: 15px;
+}
+
+.modal-body {
+    padding: 10px 20px;
+}
+
+.modal-image {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.modal-image img {
+    width: 100%;
+}
+
+.closeBtn {
+    color: #571C56;
+    float: right;
+    font-size: 30px;
+}
+
+.closeBtn:hover, .closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes modalopen {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }

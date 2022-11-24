@@ -1,5 +1,74 @@
-h1 {
-    color: red;
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&family=Cardo&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cardo', serif;
+}
+
+/*Nav bar*/
+header {
+    position: sticky;
+    top: 0;
+}
+.navigation {
+    background: #571C56;
+    height: 100px;
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 2em;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    text-transform: uppercase;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+        margin-left: 3em;
+    margin-bottom: 0;
+}
+
+nav a {
+    color: #FDF9FD;
+    font-family: 'Akshar', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/*Hero Image Section*/
+
+.hero {
+    height: 100vh;
+    background: url(images/bryce-canyon-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.centered {
+    background: hsba(0, 0%, 0%, 0.4);
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #FDF9FD;
+    position: relative;
 }
 
 /*section 5 modal content*/

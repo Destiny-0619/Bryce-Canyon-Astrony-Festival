@@ -5,9 +5,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Cardo', serif;
+    font-size: 23px;
+}
+
+h1 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 52px;
 }
 
 /*Nav bar*/
+
 header {
     position: sticky;
     top: 0;
@@ -68,7 +75,46 @@ nav a {
     align-items: center;
     text-align: center;
     color: #FDF9FD;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*i will add the transparent background portion later*/
+}
+
+/*section 1 content*/
+
+.sect-1 h1 {
+    position: absolute;
+    width: 534.31px;
+    height: 148px;
+    left: 91px;
+    top: 1040px;
+    color: #252525;
+}
+
+.sect-1 p {
+    position: absolute;
+    width: 522px;
+    height: 553px;
+    left: 91px;
+    top: 1252px;
+    color: #615161;
+}
+
+.sect-1 img {
     position: relative;
+    width: 708px;
+    height: 964px;
+    left: 642px;
+    top: 160px;
+/*do not know why image is going over the nav bar*/
+}
+
+/*section 2 content*/
+
+.sect-2 h1 {
+    
 }
 
 /*section 5 modal content*/

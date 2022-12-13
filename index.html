@@ -34,7 +34,7 @@
 
     <div class="hero">
         <div class="centered">Welcome to Bryce Canyon Annual Astronomy Festival
-            <button class="reg-button">REGISTER HERE TODAY!</button>
+            <a href="https://www.nps.gov/brca/planyourvisit/fees.htm" target="_blank"><button class="reg-button">REGISTER HERE TODAY!</button></a>
         </div>
     </div>
 
@@ -50,21 +50,27 @@
         <h1>Welcome Guest Speakers</h1>
         <div class="container">
             <div class="card">
-                <img src="images/regas.jpg" alt="">
+                <div class="profile-card-image">
+                <img src="images/dean-regas.png" alt="Dean Regas Profile">
+            </div>
                 <h2>Dean Regas</h2>
                 <p>Dean has been the Astronomer for the Cincinnati Observatory since 2000. He is a renowned educator, author, national popularizer of astronomy and an expert in observational astronomy. From 2010-2019 Dean was the co-host of the PBS program Star Gazers. He is the author of five books including "Facts From Space!" and "100 Things to See in the Night Sky".</p>
                 <a href="https://www.cincinnatiobservatory.org/dean-regas/about-dean/" target="_blank">READ MORE</a>
             </div>
 
             <div class="card">
-                <img src="images/villa.jpg" alt="">
+                <div class="profile-card-image">
+                <img src="images/begoña-vila.png" alt="Begoña Vila Profile">
+            </div>
                 <h2>Begoña Vila</h2>
                 <p>Dr. Begoña Vila is an Instrument Systems Engineer for the James Webb Space Telescope at NASA's Goddard Space Flight Center in Greenbelt, Maryland. She supported Webb's cryogenic testing at NASA's Johnson Space Center in Houston in 2017, she will support testing for the observatory throughout 2018, and she is also helping plan Webb's commissioning.</p>
                 <a href="https://www.jwst.nasa.gov/content/meetTheTeam/people/vila.html" target="_blank">READ MORE</a>
             </div>
 
             <div class="card">
-                <img src="images/ochs.jpg" alt="">
+                <div class="profile-card-image">
+                <img src="images/bill-ochs.png" alt="Bill Ochs Profile">
+            </div>
                 <h2>Bill Ochs</h2>
                 <p>Bill Ochs has 30+ years of experience in the aerospace industry. He began his career in 1979 with the Bendix Guidance Systems Division in Teterboro, N.J. as an electronics/software engineer, developing the flight software for the Hubble Space Telescope safing system. He has worked in both private industry and for NASA and is currently the Project Manager for the James Webb Space Telescope. </p>
                 <a href="https://webb.nasa.gov/content/meetTheTeam/people/ochs.html" target="_blank">READ MORE</a>
@@ -218,6 +224,9 @@
     </section>
 
     <section class="sect-5">
+
+        <h1>Map of Bryce Canyon</h1>
+
         <button class="button" id="modal-btn">
             <img src="images/map.jpg" alt="Map">
             <div class="modal" id="simpleModal">
@@ -235,23 +244,25 @@
             </div>
         </button>
 
+        <p>Click the image to view the full map.</p>
+
     </section>
 
     <section class="sect-6">
         <h1>Other Important Information</h1>
         <div class="important-information">
-            <input class="radio" id="one" name="group" type="radio" checked>
-            <input class="radio" id="two" name="group" type="radio">
-            <input class="radio" id="three" name="group" type="radio">
+            <input class="radio" id="uno" name="group" type="radio" checked>
+            <input class="radio" id="dos" name="group" type="radio">
+            <input class="radio" id="tres" name="group" type="radio">
 
             <div class="tabs">
-                <label for="one" class="tab" id="info-one">Star Shuttle Stops</label>
-                <label for="two" class="tab" id="info-two">Activities and Programs</label>
-                <label for="three" class="tab" id="info-three">Stargazing</label>
+                <label for="uno" class="tab" id="sched-one">Star Shuttle Stops</label>
+                <label for="dos" class="tab" id="sched-two">Activities and Programs</label>
+                <label for="tres" class="tab" id="sched-three">Stargazing</label>
             </div>
             
             <div class="panels">
-                <div class="panel" id="panel-one">
+                <div class="panel" id="tab-one">
                     <p>Each night of the festival, shuttle service will continue to limited locations between 8 p.m. and 12:15 a.m. Parking will be limited at Evening Program and Telescope locations, so we strongly recommend parking at the Shuttle Station in Bryce Canyon City (2 miles north of park entrance) and riding the Star Shuttle into the park. Shuttles arrive at each stop every 15 minutes. Use of the Star Shuttle is free with park admission.</p>
                     <div class="pan-heading">Star Shuttle Stops</div>
                     <li>Shuttle Station</li>
@@ -262,7 +273,7 @@
                     <li>North Campground Outdoor Theater</li>
                 </div>
 
-                <div class="panel" id="panel-two">
+                <div class="panel" id="tab-two">
                     <div class="pan-heading">Daytime Activities</div>
                     <p>Daytime activities include activity tents, solar telescopes, and other opportunities open to the public at the Visitor Center between 11 a.m. and 4 p.m. each day of the festival.</p>
                     <div class="pan-heading">Evening Programs</div>
@@ -270,7 +281,7 @@
 
                 </div>
 
-                <div class="panel" id="panel-three">
+                <div class="panel" id="tab-three">
                     <div class="pan-heading">Telescope Stargazing Site</div>
                     <p>This year's telescope site will be located within the park across the street from the Visitor Center. It will be open each night of the festival from 10 p.m. to midnight and is open to the public. We are excited to share the night sky with our visitors, and thank our partners at the Salt Lake Astronomical Society and University of Utah for their participation, expertise, and generosity with their telescopes.</p>
                     <div class="pan-subhead">Weather Cancellations</div>
@@ -286,11 +297,29 @@
 
 
     </section>
+    
+    <footer>
+        <h1>Contact Us!</h1>
+        <div class="foot-row">
+            <div class="foot-card-row">
+                <h2>Mailing</h2>
+                <p>P.O Box 640201
+            Bryce , UT 84764</p>
+            </div>
 
-    <secion class="footer">
-        <div class="footer-head">Contact Us!</div>
-        
-    </secion>
+            <div class="foot-card-row">
+                <h2>Phone</h2>
+                <p>435-834-5322</p>
+                <p>Phones are answered and messages returned 
+                    as soon as possible as staffing allows.</p>
+            </div>
+
+            <div class="foot-card-row">
+                <h2>Social Media</h2>
+                <img src="images/social-icons.png" alt="Social Media Icons">
+            </div>
+        </div>
+      </footer>
     
 
 
